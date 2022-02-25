@@ -5,6 +5,7 @@ build:
     build:
     - yum install -y pycairo
     - pip install -r requirements.txt
+    - echo "test"
 run:
   command: python app.py
   network:
